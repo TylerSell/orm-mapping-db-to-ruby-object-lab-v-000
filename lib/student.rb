@@ -67,7 +67,8 @@ class Student
     DB[:conn].execute(sql)
   end
   
-  def self.all_students_in_grade_9 
+  def self.all_students_in_grade_9
+    
     
   end
   
@@ -75,7 +76,7 @@ class Student
     
   end
   
-  def self.first_X_students_in_grade_10 
+  def self.first_X_students_in_grade_10(number)
     
   end
   
@@ -83,7 +84,7 @@ class Student
     
   end
   
-  def self.all_students_in_grade_X
+  def self.all_students_in_grade_X(grade)
     
   end
 end
